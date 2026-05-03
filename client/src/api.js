@@ -1,4 +1,4 @@
-const API_URL = '/api';;
+const API_URL = '/api';
 
 export async function getLeaderboard() {
   const response = await fetch(`${API_URL}/leaderboard`);
